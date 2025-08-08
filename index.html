@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahuel Lenardon - AI Engineer | Data Scientist | Accountant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #2d1b69 0%, #11052c 100%);
+            color: #e0e6ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #00d4ff, #7c3aed, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            color: #a78bfa;
+            margin-bottom: 1rem;
+        }
+        
+        .location {
+            font-size: 1.1rem;
+            color: #c7d2fe;
+            margin-bottom: 2rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(45deg, #7c3aed, #2563eb);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .social-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(124, 58, 237, 0.4);
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .section h2 {
+            color: #00d4ff;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section h3 {
+            color: #fbbf24;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .experience-item {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #00d4ff;
+        }
+        
+        .experience-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .company-logo {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #00d4ff, #7c3aed);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .company-logo-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            object-fit: contain;
+            background: white;
+            padding: 5px;
+        }
+        
+        .job-title {
+            color: #00d4ff;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .company-name {
+            color: #a78bfa;
+            font-size: 1.1rem;
+        }
+        
+        .duration {
+            color: #c7d2fe;
+            font-size: 0.9rem;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .tech-category {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #fbbf24;
+        }
+        
+        .tech-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .tech-badge {
+            background: linear-gradient(45deg, #7c3aed, #2563eb);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .specialization-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .spec-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #10b981;
+        }
+        
+        .spec-card h4 {
+            color: #10b981;
+            margin-bottom: 1rem;
+        }
+        
+        .spec-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .spec-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .spec-list li::before {
+            content: '▶';
+            position: absolute;
+            left: 0;
+            color: #10b981;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid #f59e0b;
+        }
+        
+        .code-block {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+            color: #a78bfa;
+        }
+        
+        .contact-section {
+            text-align: center;
+            background: linear-gradient(45deg, rgba(0, 212, 255, 0.1), rgba(124, 58, 237, 0.1));
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .highlight {
+            color: #00d4ff;
+            font-weight: bold;
+        }
+        
+        .accent {
+            color: #fbbf24;
+            font-weight: bold;
+        }
+        
+        .success {
+            color: #10b981;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>👋 ¡Hola! Soy Nahuel Lenardon</h1>
+            <div class="subtitle">AI Engineer | Data Scientist | Accountant</div>
+            <div class="location">📍 Córdoba, Argentina</div>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nahuellenardon" class="social-btn">
+                    💼 LinkedIn
+                </a>
+                <a href="mailto:nahuel.lenardon@gmail.com" class="social-btn">
+                    📧 Email
+                </a>
+                <a href="https://github.com/nahuelen" class="social-btn">
+                    🐙 GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="section">
+            <h2>🚀 Acerca de mí</h2>
+            <p>Soy un <span class="highlight">Contador Público</span> con más de <span class="accent">5 años de experiencia</span> en áreas impositivas, contables y financieras, especializado en <span class="highlight">análisis de datos</span> y <span class="highlight">modelos predictivos aplicados a finanzas</span>. Actualmente cursando una <span class="success">Maestría en Gestión y Análisis de Datos Financieros</span> en la Universidad de Buenos Aires.</p>
+            <br>
+            <p>Mi pasión es combinar la <span class="highlight">gestión de negocios</span> con la <span class="accent">ciencia de datos</span> para crear soluciones innovadoras que optimicen procesos y faciliten la toma de decisiones estratégicas.</p>
+            
+            <h3>🎯 Objetivo Profesional</h3>
+            <p>Ayudar a empresas a adoptar los datos e IA para mejorar decisiones, automatizar procesos y lograr ROI medible.</p>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <h2>💼 Experiencia Actual</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <!-- Reemplaza la siguiente línea con: <img src="URL_DEL_LOGO_PAMPA" alt="Pampa Data & Tech" class="company-logo-img"> -->
+                    <div class="company-logo" title="Pampa Data & Tech Logo">PDT</div>
+                    <div>
+                        <div class="job-title">🤖 Co-Founder & AI Engineer</div>
+                        <div class="company-name">Pampa Data & Tech</div>
+                        <div class="duration">Septiembre 2024 - Presente</div>
+                    </div>
+                </div>
+                <p>Co-fundador de empresa especializada en desarrollo de software a medida, Big Data y análisis avanzados. Desarrollo de soluciones de inteligencia artificial e implementación de modelos de machine learning para optimización empresarial.</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-logo">📊</div>
+                    <div>
+                        <div class="job-title">Process Optimization Strategist</div>
+                        <div class="company-name">Winclap</div>
+                        <div class="duration">Diciembre 2024 - Junio 2025</div>
+                    </div>
+                </div>
+                <p>Optimización de procesos empresariales y análisis de datos para mejora continua</p>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-logo">🏢</div>
+                    <div>
+                        <div class="job-title">Consultor Independiente</div>
+                        <div class="company-name">Profesional independiente</div>
+                        <div class="duration">Febrero 2019 - Presente</div>
+                    </div>
+                </div>
+                <p>Asesoramiento impositivo, contable, laboral y financiero. Implementación y parametrización de sistemas. Capacitación en uso de datos para toma de decisiones.</p>
+            </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="section">
+            <h2>🛠️ Tecnologías y Herramientas</h2>
+            
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>💻 Lenguajes de Programación</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">R</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>📊 Data Science & Analytics</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">Scikit Learn</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">Keras</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>🔧 Automatización y Testing</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Selenium</span>
+                        <span class="tech-badge">UiPath</span>
+                        <span class="tech-badge">AI Agents</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>📈 Visualización</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">Plotly</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2>🎓 Educación</h2>
+            
+            <div class="experience-item">
+                <h3>🎯 Maestría en Gestión y Análisis de Datos Financieros</h3>
+                <p><span class="accent">Universidad de Buenos Aires</span> | <em>Septiembre 2023</em></p>
+            </div>
+
+            <div class="experience-item">
+                <h3>📊 Especialización en Gestión y Análisis de Datos, Machine Learning</h3>
+                <p><span class="accent">Universidad de Buenos Aires</span> | <em>2021 - 2022</em></p>
+            </div>
+
+            <div class="experience-item">
+                <h3>💼 Contador Público</h3>
+                <p><span class="accent">Universidad Nacional de Córdoba</span> | <em>2009 - 2015</em></p>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="section">
+            <h2>🏆 Certificaciones</h2>
+            <div class="tech-badges">
+                <span class="tech-badge">🧠 Deep Learning & Neural Networks with Keras</span>
+                <span class="tech-badge">🤖 RPA - Automatización de Procesos</span>
+                <span class="tech-badge">📊 Data Analytics</span>
+            </div>
+        </div>
+
+        <!-- Specializations -->
+        <div class="section">
+            <h2>🌟 Áreas de Especialización</h2>
+            
+            <div class="specialization-grid">
+                <div class="spec-card">
+                    <h4>💰 Finanzas & Contabilidad</h4>
+                    <ul class="spec-list">
+                        <li>Análisis financiero y de costos</li>
+                        <li>Liquidación de impuestos (Municipal, Provincial, Nacional)</li>
+                        <li>Auditoría y contabilidad integral</li>
+                        <li>Planificación financiera</li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <h4>🤖 Data Science & AI</h4>
+                    <ul class="spec-list">
+                        <li>Machine Learning y Deep Learning</li>
+                        <li>Modelos predictivos aplicados a finanzas</li>
+                        <li>Automatización de procesos (RPA + AI Agents)</li>
+                        <li>Análisis estadístico avanzado</li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <h4>💻 Desarrollo de Software</h4>
+                    <ul class="spec-list">
+                        <li>Software contable y de gestión</li>
+                        <li>Automatización de reportes con AI Agents</li>
+                        <li>Desarrollo de indicadores KPI</li>
+                        <li>Optimización de flujos de trabajo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Code Philosophy -->
+        <div class="section">
+            <h2>📊 Enfoque Profesional</h2>
+            <div class="code-block">
+class NahuelLenardon:
+    def __init__(self):
+        self.roles = ["Co-Founder", "AI Engineer", "Data Scientist", "Accountant"]
+        self.expertise = ["Financial Analysis", "Machine Learning", "Process Automation"]
+        self.passion = "Transforming business through data-driven solutions"
+    
+    def approach(self):
+        return "Combining business acumen with cutting-edge technology"
+    
+    def mission(self):
+        return "Bridge the gap between finance and artificial intelligence"
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2>🚀 Proyectos Destacados</h2>
+            <p><em>Próximamente estaré subiendo proyectos que demuestran la intersección entre finanzas, contabilidad y ciencia de datos.</em></p>
+            
+            <h3>🔍 Áreas de Interés para Proyectos:</h3>
+            <div class="projects-grid">
+                <div class="project-card">📈 Modelos predictivos para análisis financiero</div>
+                <div class="project-card">🤖 Automatización de procesos contables con RPA + AI Agents</div>
+                <div class="project-card">📊 Dashboard de KPIs financieros</div>
+                <div class="project-card">🧠 Machine Learning aplicado a riesgo crediticio</div>
+                <div class="project-card">💹 Análisis de series temporales financieras</div>
+                <div class="project-card">🤖 AI Agents para optimización de workflows financieros</div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact-section">
+            <h2>📫 ¡Conectemos!</h2>
+            <p>Siempre estoy interesado en <span class="highlight">colaborar</span> en proyectos innovadores que combinen <span class="accent">finanzas</span> y <span class="success">tecnología</span>. Si tienes ideas interesantes o quieres discutir sobre:</p>
+            <br>
+            <div class="tech-badges" style="justify-content: center;">
+                <span class="tech-badge">🤝 Análisis de datos financieros</span>
+                <span class="tech-badge">💡 Automatización de procesos con AI Agents</span>
+                <span class="tech-badge">🔬 Modelos predictivos</span>
+                <span class="tech-badge">📚 Machine Learning en finanzas</span>
+            </div>
+            <br>
+            <p><strong>¡No dudes en contactarme!</strong></p>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
