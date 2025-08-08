@@ -55,6 +55,7 @@ Desarrollarme plenamente en el área de datos, aportando mi experiencia en gesti
 ### 🔧 Automatización y Testing
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![UiPath](https://img.shields.io/badge/UiPath-FF6600?style=for-the-badge&logo=uipath&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-FF4B4B?style=for-the-badge&logo=robot&logoColor=white)
 
 ### 📈 Visualización
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -94,12 +95,12 @@ Desarrollarme plenamente en el área de datos, aportando mi experiencia en gesti
 ### 🤖 **Data Science & AI**
 - Machine Learning y Deep Learning
 - Modelos predictivos aplicados a finanzas
-- Automatización de procesos (RPA)
+- Automatización de procesos (RPA + AI Agents)
 - Análisis estadístico avanzado
 
 ### 💻 **Desarrollo de Software**
 - Software contable y de gestión
-- Automatización de reportes
+- Automatización de reportes con AI Agents
 - Desarrollo de indicadores KPI
 - Optimización de flujos de trabajo
 
@@ -129,10 +130,11 @@ class NahuelLenardon:
 
 ### 🔍 Áreas de Interés para Proyectos:
 - 📈 Modelos predictivos para análisis financiero
-- 🤖 Automatización de procesos contables con RPA
+- 🤖 Automatización de procesos contables con RPA + AI Agents
 - 📊 Dashboard de KPIs financieros
 - 🧠 Machine Learning aplicado a riesgo crediticio
 - 💹 Análisis de series temporales financieras
+- 🤖 AI Agents para optimización de workflows financieros
 
 ---
 
@@ -141,12 +143,8 @@ class NahuelLenardon:
 Siempre estoy interesado en **colaborar** en proyectos innovadores que combinen **finanzas** y **tecnología**. Si tienes ideas interesantes o quieres discutir sobre:
 
 - 🤝 Análisis de datos financieros
-- 💡 Automatización de procesos
+- 💡 Automatización de procesos con AI Agents
 - 🔬 Modelos predictivos
 - 📚 Machine Learning en finanzas
 
 **¡No dudes en contactarme!**
-
----
-
-⭐ *"La intersección entre el conocimiento financiero y la tecnología es donde nacen las mejores soluciones."*
