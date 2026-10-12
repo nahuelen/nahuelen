@@ -10,7 +10,7 @@
 
 ## 🚀 Acerca de mí
 
-Soy un **Contador Público** con más de **5 años de experiencia** en áreas impositivas, contables y financieras, especializado en **análisis de datos** y **modelos predictivos aplicados a finanzas**. Actualmente cursando una **Maestría en Gestión y Análisis de Datos Financieros** en la Universidad de Buenos Aires.
+Soy un **Contador Público** con más de **10 años de experiencia** en áreas impositivas, contables y financieras, especializado en **análisis de datos** y **modelos predictivos aplicados a finanzas**. Actualmente cursando una **Maestría en Gestión y Análisis de Datos Financieros** en la Universidad de Buenos Aires.
 
 Mi pasión es combinar la **gestión de negocios** con la **ciencia de datos** para crear soluciones innovadoras que optimicen procesos y faciliten la toma de decisiones estratégicas.
 
