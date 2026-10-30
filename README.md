@@ -1,6 +1,6 @@
 # 👋 ¡Hola! Soy Nahuel Lenardon
 
-**AI Engineer | Data Scientist | Accountant**  
+**AI Engineer | Data Scientist | Accountant**
 📍 Córdoba, Argentina
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nahuellenardon)
@@ -10,23 +10,29 @@
 
 ## 🚀 Acerca de mí
 
-Soy un **Contador Público** con más de **10 años de experiencia** en áreas impositivas, contables y financieras, especializado en **análisis de datos** y **modelos predictivos aplicados a finanzas**. Actualmente cursando una **Maestría en Gestión y Análisis de Datos Financieros** en la Universidad de Buenos Aires.
+Soy **Contador Público** con más de **10 años de experiencia** en áreas impositivas, contables y financieras, especializado en **análisis de datos**, **modelos predictivos aplicados a finanzas** e **inteligencia artificial aplicada a la gestión contable**. Estoy cursando la **Maestría en Gestión y Análisis de Datos Financieros** en la Universidad de Buenos Aires.
 
-Mi pasión es combinar la **gestión de negocios** con la **ciencia de datos** para crear soluciones innovadoras que optimicen procesos y faciliten la toma de decisiones estratégicas.
+Me apasiona combinar la **gestión de negocios** con la **ciencia de datos** y la **IA** para crear soluciones que optimicen procesos y faciliten la toma de decisiones estratégicas.
 
 ### 🎯 Objetivo Profesional
-Desarrollarme plenamente en el área de datos, aportando mi experiencia en gestión de negocios y mi capacidad para resolver problemas complejos mediante soluciones tecnológicas innovadoras.
+Construir productos de software e IA que transformen el trabajo contable y financiero, aportando mi experiencia en gestión de negocios y mi capacidad para resolver problemas complejos con tecnología.
 
 ---
 
-## 💼 Experiencia Actual
+## 💼 Experiencia
+
+### 📒 AI Engineer - [Balances](https://app.balances.com.ar)
+*Enero 2026 - Presente*
+- Desarrollo de funcionalidades de IA para una plataforma de gestión contable para estudios
+- Automatización de procesos contables: asientos, estados contables, facturación y gestión de tareas
+- Integración de agentes de IA con los flujos de trabajo del estudio contable
 
 ### 🤖 AI Engineer - Pampa Data & Tech
-*Septiembre 2024 - Presente*
+*Septiembre 2024 - Diciembre 2025*
 - Desarrollo de soluciones de inteligencia artificial
 - Implementación de modelos de machine learning
 
-### 📊 Process Optimization Strategist - Winclap  
+### 📊 Process Optimization Strategist - Winclap
 *Diciembre 2024 - Junio 2025*
 - Optimización de procesos empresariales
 - Análisis de datos para mejora continua
@@ -52,10 +58,11 @@ Desarrollarme plenamente en el área de datos, aportando mi experiencia en gesti
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 
-### 🔧 Automatización y Testing
+### 🔧 Automatización e IA
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![UiPath](https://img.shields.io/badge/UiPath-FF6600?style=for-the-badge&logo=uipath&logoColor=white)
 ![AI Agents](https://img.shields.io/badge/AI_Agents-FF4B4B?style=for-the-badge&logo=robot&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
 
 ### 📈 Visualización
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -66,7 +73,7 @@ Desarrollarme plenamente en el área de datos, aportando mi experiencia en gesti
 ## 🎓 Educación
 
 ### 🎯 **Maestría en Gestión y Análisis de Datos Financieros**
-*Universidad de Buenos Aires* | *Septiembre 2023*
+*Universidad de Buenos Aires* | *2023 - Presente*
 
 ### 📊 **Especialización en Gestión y Análisis de Datos, Machine Learning**
 *Universidad de Buenos Aires* | *2021 - 2022*
@@ -99,7 +106,7 @@ Desarrollarme plenamente en el área de datos, aportando mi experiencia en gesti
 - Análisis estadístico avanzado
 
 ### 💻 **Desarrollo de Software**
-- Software contable y de gestión
+- Software contable y de gestión (SaaS para estudios contables)
 - Automatización de reportes con AI Agents
 - Desarrollo de indicadores KPI
 - Optimización de flujos de trabajo
@@ -112,23 +119,24 @@ Desarrollarme plenamente en el área de datos, aportando mi experiencia en gesti
 class NahuelLenardon:
     def __init__(self):
         self.roles = ["AI Engineer", "Data Scientist", "Accountant"]
-        self.expertise = ["Financial Analysis", "Machine Learning", "Process Automation"]
-        self.passion = "Transforming business through data-driven solutions"
-    
+        self.current = "AI Engineer @ Balances"
+        self.expertise = ["Financial Analysis", "Machine Learning", "AI Agents", "Process Automation"]
+        self.passion = "Transforming accounting through data-driven and AI-powered solutions"
+
     def approach(self):
         return "Combining business acumen with cutting-edge technology"
-    
+
     def mission(self):
-        return "Bridge the gap between finance and artificial intelligence"
-```
+        return "Bridge the gap between accounting, finance and artificial intelligence"
 
 ---
 
-## 🚀 Proyectos Destacados
+🚀 Proyectos Destacados
 
-*Próximamente estaré subiendo proyectos que demuestran la intersección entre finanzas, contabilidad y ciencia de datos.*
+Próximamente estaré subiendo proyectos que muestran la intersección entre finanzas, contabilidad y ciencia de datos.
 
-### 🔍 Áreas de Interés para Proyectos:
+🔍 Áreas de Interés para Proyectos:
+
 - 📈 Modelos predictivos para análisis financiero
 - 🤖 Automatización de procesos contables con RPA + AI Agents
 - 📊 Dashboard de KPIs financieros
@@ -138,13 +146,14 @@ class NahuelLenardon:
 
 ---
 
-## 📫 ¡Conectemos!
+📫 ¡Conectemos!
 
-Siempre estoy interesado en **colaborar** en proyectos innovadores que combinen **finanzas** y **tecnología**. Si tienes ideas interesantes o quieres discutir sobre:
+Siempre me interesa colaborar en proyectos innovadores que combinen finanzas y tecnología. Si tenés ideas interesantes o querés conversar sobre:
 
 - 🤝 Análisis de datos financieros
 - 💡 Automatización de procesos con AI Agents
 - 🔬 Modelos predictivos
-- 📚 Machine Learning en finanzas
+- 📚 IA aplicada a contabilidad y finanzas
 
-**¡No dudes en contactarme!**
+¡No dudes en contactarme!
+
